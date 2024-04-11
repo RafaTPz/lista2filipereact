@@ -7,7 +7,7 @@ export async function getLancheById(id) {
     const response = await axios.get(`${API_URL}/lanches/${id}`);
     return response.data;
   } catch (error) {
-    throw new Error(`Erro ao buscar lanche: ${error.message}`);
+    throw new Error(`Erro ao buscar o lanche com o ID ${id}: ${error.message}`);
   }
 }
 
@@ -27,7 +27,7 @@ export async function updateLanche(id, data) {
     const response = await axios.put(`${API_URL}/lanches/${id}`, data);
     return response.data;
   } catch (error) {
-    throw new Error(`Erro ao atualizar o lanche: ${error.message}`);
+    throw new Error(`Erro ao atualizar o lanche com o ID ${id}: ${error.message}`);
   }
 }
 
@@ -36,6 +36,6 @@ export async function deleteLanche(id) {
     const response = await axios.delete(`${API_URL}/lanches/${id}`);
     return response.data;
   } catch (error) {
-    throw new Error(`Erro ao deletar o lanche: ${error.message}`);
+    throw new Error(`Erro ao deletar o lanche com o ID ${id}: ${error.message}`);
   }
 }
