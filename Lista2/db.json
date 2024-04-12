@@ -1,6 +1,28 @@
 {
-    "lanches": [
-        { "id": "1", "title": "Big Mac", "bonus": 100, "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXCTbnv/200/200/original?country=br" },
-        { "id": "2", "title": "Sunday", "bonus": 200, "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXGFtJB/200/200/original?country=br" }
-      ]
+  "lanches": [
+    {
+      "id": "1",
+      "produto": "Big Mac",
+      "preco": 100,
+      "imagem": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXCTbnv/200/200/original?country=br"
+    },
+    {
+      "id": "2",
+      "produto": "Sunday",
+      "preco": 200,
+      "imagem": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXGFtJB/200/200/original?country=br"
+    },
+    {
+      "id": "3",
+      "produto": "Lanchinho",
+      "preco": 10,
+      "imagem": "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/10/sanduiche-bauru-canva.jpg"
+    },
+    {
+      "id": "07bc",
+      "produto": "Suvati",
+      "preco": 42,
+      "imagem": "https://th.bing.com/th/id/OIP.QBYIkTJkyqG_XwQI1o9tAAHaE8?rs=1&pid=ImgDetMain"
+    }
+  ]
 }

@@ -8,9 +8,9 @@ function LancheCard(props) {
         
         <Link key={props.idx} to={"/lanches/"+ (props.idx + 1)}> 
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={props.image} />
+          <Card.Img variant="top" src={props.imagem} />
           <Card.Body>
-            <Card.Title>{props.title}</Card.Title>
+            <Card.Title>{props.produto}</Card.Title>
             <Card.Text>
               {props.description || "Lanche Legal"}
             </Card.Text>

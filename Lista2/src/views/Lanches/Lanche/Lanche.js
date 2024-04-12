@@ -13,14 +13,14 @@ function Lanche(props) {
   React.useEffect(() => {
     LancheService.getLancheById(params.id)
       .then(lancheById => setLanche(lancheById))
-  }, [])
+  }, [params.id])
 
   return (
     <div>
       {lanche && <Container>
         <Row>
           <Col md={6} xs={12}>
-            <Image height={"300px"} src={lanche.image} roundedCircle />
+            <Image height={"300px"} src={lanche.imagem} roundedCircle />
           </Col>
           <Col md={6} xs={12}>
             <br />
@@ -33,12 +33,12 @@ function Lanche(props) {
               </thead>
               <tbody>
                 <tr>
-                  <td>Title</td>
-                  <td>{lanche.title}</td>
+                  <td>Produto</td>
+                  <td>{lanche.produto}</td>
                 </tr>
                 <tr>
-                  <td>Bonus</td>
-                  <td>{lanche.bonus}</td>
+                  <td>Preço</td>
+                  <td>{lanche.preco}</td>
                 </tr>
               </tbody>
             </Table>
