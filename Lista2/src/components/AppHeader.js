@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 
 function AppHeader() {
   return (
-    <Navbar expand="lg" data-bs-theme="dark" bg={""} style={{backgroundColor: "purple"}}>
+    <Navbar expand="lg" data-bs-theme="dark" bg={""} style={{backgroundColor: "darkred"}}>
       <Container>
-        <Navbar.Brand href="#home">Tigrinhos Fiec</Navbar.Brand>
+        <Navbar.Brand href="#home">Lanconhete Maneira</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
