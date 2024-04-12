@@ -1,0 +1,6 @@
+{
+    "lanches": [
+        { "id": "1", "title": "Big Mac", "bonus": 100, "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXCTbnv/200/200/original?country=br" },
+        { "id": "2", "title": "Sunday", "bonus": 200, "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXGFtJB/200/200/original?country=br" }
+      ]
+}

@@ -1,0 +1,28 @@
+{
+  "lanches": [
+    {
+      "id": "35",
+      "lanche": "McLanche Feliz",
+      "preco": "16.90",
+      "imagem": ""
+    },
+    {
+      "id": "aa08",
+      "lanche": "sim",
+      "preco": "12",
+      "imagem": "312312"
+    },
+    {
+      "id": "18f8",
+      "lanche": "sim",
+      "preco": "120",
+      "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLmRFLc6MREbrvDbof2ad-VI3byr8inlYCaKW59qYNHCMkr0Ot"
+    },
+    {
+      "id": "ecb0",
+      "lanche": "asdsda",
+      "preco": "213",
+      "imagem": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLmRFLc6MREbrvDbof2ad-VI3byr8inlYCaKW59qYNHCMkr0Ot"
+    }
+  ]
+}
